@@ -7,6 +7,83 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>test</h1>
+    <div class="left-view">
+      <img src="images/odin-lined.png" alt="Logo" />
+      <h1>ODIN</h1>
+    </div>
+    <div class="right-view">
+      <div>
+        <h3>
+          This is not a real online service! You know you need something <br />
+          like this in your life to help yoy realize your deepest dreams. <br />
+          Sing up now to get started
+          <br />
+          <br />
+          You know you want to.
+        </h3>
+      </div>
+      <div>
+        <form action="#" method="get">
+          <legend>Let's do this!</legend>
+          <fieldset>
+            <div class="pairs">
+              <label for="first name">First name</label>
+              <input
+                type="text"
+                name="firs name"
+                id="first name"
+                placeholder="Your name"
+              />
+              <label for="last name">last name</label>
+              <input
+                type="text"
+                name="last name"
+                id="last name"
+                placeholder="you last name"
+              />
+            </div>
+            <div class="pairs">
+              <label for="email">E-mail</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="email@example.com"
+              />
+              <label for="phone number">Phone number</label>
+              <input
+                type="tel"
+                name="phone number"
+                id="phone number"
+                placeholder="xxxxxxxxxx"
+                minlength="10"
+                maxlength="10"
+              />
+            </div>
+            <div class="pairs">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="name1234 is't a pass:)"
+              />
+              <label for="confirm password">Confirm Password</label>
+              <input
+                type="text"
+                name="confirm password"
+                id="confirm-password"
+                placeholder="repeat you pass"
+              />
+            </div>
+          </fieldset>
+          <button type="submit">Create Account</button>
+        </form>
+      </div>
+      <div>
+        <h5>already have an account?</h5>
+        <a href="#">Log in</a>
+      </div>
+    </div>
   </body>
 </html>
